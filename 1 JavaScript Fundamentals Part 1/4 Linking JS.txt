@@ -1,0 +1,21 @@
+javascript link karna jaruri kyo hai?
+dekho js ka script tag ke adar bhi likh sakte hai lekin js css aur html alag alag likhne se saaf safai shai rheti hai code ka pata rheta hai
+
+aur js ko link body tag close krne ke just phele kiya jaata hao
+ jasie      <script> </script> 
+            </body>
+
+
+aur src ek attribute hota hai jo path batata hai js file ka
+
+
+linking ka tarika
+
+
+<body>
+    .......................
+    .......................
+    
+    .......................
+    <script src="path"></script>
+</body>
