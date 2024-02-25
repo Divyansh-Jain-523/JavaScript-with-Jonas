@@ -15,7 +15,15 @@ linking ka tarika
 <body>
     .......................
     .......................
-    
+
     .......................
     <script src="path"></script>
 </body>
+
+
+apn java script ko body ke andar jaake khai bhi se link kr satke hai to fir last mai hi kyo krte hai ?
+
+    kyoki, phele link krdege to js file phele execute ho jayegi aur html nhi ho payegi jisse ui mai issue aa sakta hai
+    islye
+
+    
