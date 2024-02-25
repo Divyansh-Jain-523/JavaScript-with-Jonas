@@ -1,0 +1,11 @@
+ javascript ek high level , programmming language hai jo bhut cheezo ko assaan bana deti hai jaise web app banana react ka use krke moblie aur desktop app bhi bana sakte hai js ka use karke 
+
+
+ js ke mainly do version hai ES5 and before and ES6 and after
+
+ ES6 apna 2015 mai release hua tha jisme bhut major updates aaye the
+
+ apan js ko frontend ke liye padege abhi baad mai jonas sir ka yadi man hua to backend ke liye nodejs bhi padayege
+
+
+ 
