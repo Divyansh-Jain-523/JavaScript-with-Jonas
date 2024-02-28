@@ -1,7 +1,7 @@
 /*
 Operators in JavaScript
 
-    Operational
+    Arithmetic
     Assignment
     Incremental and Decremental
     Comparision
@@ -9,7 +9,7 @@ Operators in JavaScript
     typeof
 
 
-    Operational Operators : 
+    Arithmetic Operators : 
                             +
                             -
                             *
@@ -43,7 +43,7 @@ Operators in JavaScript
              typeof var
 */
 
-// Operational Operators 
+// Arithmetic Operators 
 const a = 10;
 const b = 20;
 
