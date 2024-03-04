@@ -23,5 +23,5 @@ const obj2 = new Object(
         caste : 'Jain'
     }
 );
-// Second Object type Declaration of an Object
+// Second Object type Declaration of an Object 
 console.log(obj2.name, obj2.caste);
