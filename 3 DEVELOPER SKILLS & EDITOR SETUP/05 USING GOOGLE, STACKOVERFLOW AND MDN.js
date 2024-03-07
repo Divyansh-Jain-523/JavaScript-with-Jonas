@@ -1,0 +1,1 @@
+// theek hai google wagera krna btaya bs kuch khas nhi lga 
