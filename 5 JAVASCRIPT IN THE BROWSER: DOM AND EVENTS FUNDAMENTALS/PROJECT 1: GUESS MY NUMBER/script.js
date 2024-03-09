@@ -56,9 +56,10 @@ const checkBtn = () => {
 const againBtn = () => {
   score = 20;
   msgDisplay.textContent = "Start guessing...";
-  document.querySelector("body").style.backgroundColor = "#000000";
+  document.querySelector("body").style.backgroundColor = "#222";
   document.querySelector(".number").style.width = "15rem";
   scoreDisplay.textContent = score;
+  document.querySelector(".number").textContent = '?';
   btnCheck.textContent = "Check!";
   randomNum = Math.trunc(Math.random() * 20 + 1);
   guessValue.value = "";
