@@ -22,10 +22,20 @@ const winnerFunction = () => {
     document.querySelector(".number").style.width = "30rem";
     highScoreUpdater();
 }
+const lostFunction = () =>{
+  document.querySelector('body').style.backgroundColor = '#CC0000';
+  btnCheck.textContent = 'Again!';
+  msgDisplay.textContent = 'You Lost! 😞'
+}
 const checkBtn = () => {
   if (btnCheck.textContent === "Again!") {
     againBtn();
-  } else {
+  } 
+  else if(score === 0){
+    document.querySelector(".number").textContent = randomNum;
+    lostFunction();
+  }
+  else {
     userInp = Number(guessValue.value);
     if (userInp && score > 0) {
       if (userInp === randomNum) {
@@ -37,7 +47,7 @@ const checkBtn = () => {
         msgDisplay.textContent = "Guess a bigger Number";
         scoreDecrement();
       } else msgDisplay.textContent = "Error! Range lies from 1 to 20";
-    } else if (score == 0) msgDisplay.textContent = "Worst Case! Restart Game";
+    }
     else {
       msgDisplay.textContent = "Enter a Number greater than 0";
     }
