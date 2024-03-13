@@ -1,0 +1,35 @@
+javascript engine has two components : Call Stack and Heap
+
+Call Stack : it is a unit of JS engine where Execution context are stored
+and in Heap : All objects that are part of our Application are stored and mostly in unordered way
+
+Compilation and Interpretation : as the machine requires the commands in the form of machine code that is in Binary and it is too hard do do that so we use high level languages that are used to convert human readable code into machine code without any problem 
+    Now this process can be done via two types Compilation and Interpretation
+
+    In Compilation : the whole program is converted into machine code at once and that needs to be executed.
+    but, in Interpretation : the code is executed line by line without genration of any new file (on the case of Compilation a file genrated)
+
+    Now both having some sort of issue such as in Compilation new file genration and in Interpretation slow Execution so mordern JS engines are designed in a way that it can Tackle both issues and reffered as JIT Just In Time Compilation here no new file genration but complies all program in a single time then executed same instantly
+
+// How program executed in JS
+
+
+const a = 19;
+const b = () => (){
+    console.log(a+102);
+}
+
+const c = () => {
+    if(a){
+        let d = 99;
+        var e = 100;
+    }
+    console.log(d);
+    console.log(e);
+    
+}
+
+c();
+
+// according to me d is not accessable through c();
+    e can be as it will locked to function scope as defined as var

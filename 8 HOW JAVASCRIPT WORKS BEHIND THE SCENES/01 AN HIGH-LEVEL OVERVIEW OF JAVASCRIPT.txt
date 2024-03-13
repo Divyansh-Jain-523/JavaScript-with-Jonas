@@ -1,0 +1,31 @@
+JavaScript is a high level multi-pradigm prototype based object oriented 
+interpreted or just in time complied dynamic single threaded garbage 
+collecting language with first-class functions with a non blocking event 
+loop concurrency model
+
+High level : High level is reffered as programming language that does not 
+require us to define the memory allocation process and that all be 
+abstracted for user Such as JavaScript, python C++ ,java etc
+
+multi-pradigm : this means the programming approach supported by language 
+here in this case it is multiple such as :  Object oriented programming
+                                            functional programming
+                                            Procedural programming
+
+garbage collecting : automatically removes unused objects that make it lot better
+
+interpreted or just in time complied : as we know interpreter executes a line by line that makes it slow so, JIT is used which works as a complier and interpretes the all code at once by as in complier the complied files need to executes and that may consume a lil bit of time here not this is
+Jit executes files directly
+
+        complier -> complied file -> executes
+        JIT -> executes
+
+and JIT coverting file repeatedly line by line after execution of program to maintain its quality
+
+first class functions : reffered as functions that can be stored as vairiables
+
+dynamic : no need to define datatype and can be converted in future
+
+single-threaded : works only main thread here
+
+non blocking event loop : here js executes long running task in backgroud after there completion they are added back in main thread
