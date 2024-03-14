@@ -41,7 +41,7 @@ const checkBtn = () => {
     if (userInp > 0 && userInp <= 20) {
       if (userInp === randomNum) {
         winnerFunction();
-      } else if (userInp !== randomNum && userInp <= 20) {
+      } else if (userInp > randomNum && userInp <= 20) {
         msgDisplay("Guess a smaller Number");
         scoreDecrement();
       } else if (userInp < randomNum && userInp > 0) {
